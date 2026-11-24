@@ -8,7 +8,7 @@ for (const file of files.filter(f => f.endsWith('.html') && f !== '404.html')) {
   const fail = message => { throw new Error(`${file}: ${message}`); };
   if ((html.match(/<h1[ >]/g)||[]).length !== 1) fail('Need exactly one h1');
   if (!/<html lang="zh-CN">/.test(html) || !/name="viewport"/.test(html)) fail('Missing language/viewport');
-  if (!/<link rel="canonical" href="https:\/\/houziwk2000-source.github.io\/yiyuan\//.test(html)) fail('Wrong canonical');
+  if (!/<link rel="canonical" href="https:\/\/yiyuanjc.github.io\//.test(html)) fail('Wrong canonical');
   if (!/<meta name="description" content="[^"]{20,}"/.test(html)) fail('Missing description');
   for (const schema of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) JSON.parse(schema[1]);
   for (const match of html.matchAll(/(?:href|src)="([^"]*)"/g)) {

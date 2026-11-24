@@ -51,3 +51,5 @@ console.log(`Built ${pages.length} indexable pages, 404, sitemap and local asset
 
 fs.copyFileSync(path.join(root,'site.css'),path.join(out,'site.'+assetRevision+'.css'));
 fs.copyFileSync(path.join(root,'app.js'),path.join(out,'app.'+assetRevision+'.js'));
+
+fs.writeFileSync(path.join(out,'robots.txt'),['User-agent: *','Allow: /','Sitemap: '+d.url+'sitemap.xml',''].join(String.fromCharCode(10)));

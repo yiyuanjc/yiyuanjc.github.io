@@ -1,6 +1,6 @@
 # 一元机场 · 独立信息站
 
-Public URL: https://houziwk2000-source.github.io/yiyuan/
+Public URL: https://yiyuanjc.github.io/
 
 ## Maintain content
 
@@ -14,4 +14,4 @@ Homepage popup: `popup.enabled`, `title`, `text`, `button`, `waitSeconds`. A nat
 
 Responsive layout supports narrow phones, tablets, desktops and fold/unfold viewport widths. CSS also includes progressive viewport-segment handling and reduced-motion support. Physical device/Safari testing is separate from browser viewport checks.
 
-Project Pages cannot serve the account-root robots.txt from this repository. Indexing defaults to allowed; sitemap is available at `/yiyuan/sitemap.xml`. Search Console/Bing verification or real indexing is not claimed without evidence.
+Organization-root Pages serves the brand site. Indexing defaults to allowed; sitemap is available at `/sitemap.xml`. Search Console/Bing verification or real indexing is not claimed without evidence.
