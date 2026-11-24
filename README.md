@@ -8,7 +8,7 @@ Edit `content.json` to update brand text, plan prices and traffic, popup setting
 
 Run `node build.mjs` then `node check.mjs` locally. No package install or external fonts are needed. GitHub Actions rebuilds and publishes `dist` on each push to main. Configure Pages source as GitHub Actions. The workflow is `.github/workflows/deploy.yml`.
 
-The site contains full static HTML, individual article URLs, canonical tags, metadata, WebPage/Article JSON-LD, XML and HTML sitemaps, and a custom 404. No guaranteed indexing or rankings. Register/download links use the existing source website routes; no source-site settings are modified.
+The site contains full static HTML, individual article URLs, canonical tags, metadata, WebPage/Article JSON-LD, XML and HTML sitemaps, and a custom 404. No guaranteed indexing or rankings. Registration, popup and download-entry links all use the user-requested portal https://w1.feihouyun.com/#/register . No source-site settings are modified.
 
 Homepage popup: `popup.enabled`, `title`, `text`, `button`, `waitSeconds`. A native modal dialog traps focus, supports Escape after the waiting period, and does not persist visitor data. All other pages omit the popup.
 
