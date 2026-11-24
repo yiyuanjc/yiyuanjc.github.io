@@ -227,5 +227,9 @@
         ]
       ]
     }
-  ]
+  ],
+  "verification": {
+    "google": "TFPucLreWxa21yb3mEp7z84MgJcob5NI-wQngKz1IPU",
+    "bing": "D94A65641B0FE12A907A7515817C96AE"
+  }
 }
